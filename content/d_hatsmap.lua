@@ -217,7 +217,7 @@ local HatKnownAccessoriesDatabase = {
 	-- Lightning Cannon Accessories
 	-- cannon
 	{
-		MeshId = "77229698901212", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(-1.20000005, -0.5, -0.5, 1, 2.29397301e-09, 2.62201709e-08, 2.62201709e-08, -0.173648342, -0.98480773, 2.29397301e-09, 0.98480773, -0.173648342),
 		C1 = CFrame.new(-4.80999994, -1.22500002, 0, -4.37113883e-08, 1, 4.37113883e-08, -0, -4.37113883e-08, 1, 1, 4.37113883e-08, 1.91068547e-15),
 		Limb = "Torso", Group = "Gun",
@@ -226,7 +226,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{
-		MeshId = "76443789550926", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(-1.20000005, -0.5, -0.5, 1, 2.29397301e-09, 2.62201709e-08, 2.62201709e-08, -0.173648342, -0.98480773, 2.29397301e-09, 0.98480773, -0.173648342),
 		C1 = CFrame.new(0.5, -1, 0, -4.37113883e-08, 1, 4.37113883e-08, -0, -4.37113883e-08, 1, 1, 4.37113883e-08, 1.91068547e-15),
 		Limb = "Torso", Group = "Gun"
@@ -398,7 +398,7 @@ local HatKnownAccessoriesDatabase = {
 
 	-- Guns
 	{ -- 4623059912
-		MeshId = "4615369575", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(-1.2, -0.5, -0.8, 1, 0, 0, 0, -0.342020363, -0.939692557, 0, 0.939692557, -0.342020363),
 		C1 = CFrame.new(-1.2, 0.5, 0, 0, 0.707106769, 0.707106829, 0, -0.707106829, 0.707106769, 1, 0, 0),
 		Limb = "Torso", Group = "Gun",
@@ -407,7 +407,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 17382649150
-		MeshId = "17364671821", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 0.6) * CFrame.Angles(0, 0, math.rad(-60)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, -2, 0),
 		C1 = CFrame.new(0, 0.4, 1.7, -1, 0, 0, 0, 0, -1, 0, -1, 0),
 		Limb = "Torso", Group = "Gun",
@@ -416,7 +416,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 17174236857
-		MeshId = "17174159690", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 0.6) * CFrame.Angles(0, 0, math.rad(-60)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, -2, 0),
 		C1 = CFrame.new(0, 0.4, 1.7, -1, 0, 0, 0, 0, -1, 0, -1, 0),
 		Limb = "Torso", Group = "Gun",
@@ -425,7 +425,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 6775268462
-		MeshId = "6774736084", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 0.6) * CFrame.Angles(0, 0, math.rad(-60)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, -2, 0),
 		C1 = CFrame.new(0, 0.4, 1.7, -1, 0, 0, 0, 0, -1, 0, -1, 0),
 		Limb = "Torso", Group = "Gun",
@@ -434,7 +434,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 14847744375
-		MeshId = "14847654884", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(-1, -0.699999988, 0.600000024, -4.37113883e-08, 0.939692676, 0.342020035, 0, 0.342020035, -0.939692676, -1, -4.10752712e-08, -1.49501709e-08),
 		C1 = CFrame.new(-1.29999995, -0.300000012, 0, -4.37113883e-08, 1, -4.37113883e-08, -0, -4.37113883e-08, -1, -1, -4.37113883e-08, 1.91068547e-15) * CFrame.Angles(0, math.pi, 0),
 		Limb = "Torso", Group = "Gun",
@@ -443,7 +443,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 15034807966
-		MeshId = "15033232117", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 0.6) * CFrame.Angles(0, 0, math.rad(10)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, -1, 0),
 		C1 = CFrame.new(0, 0, -1, 1, 0, 0, 0, 0, -1, 0, 1, 0) * CFrame.Angles(0, math.pi, 0),
 		Limb = "Torso", Group = "Gun",
@@ -452,7 +452,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 5552252553
-		MeshId = "5548423017", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 0.6) * CFrame.Angles(0, 0, math.rad(140)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, -1, 0),
 		C1 = CFrame.new(0.795753, 1.12828, 0, 0, -0.5, -0.866025, 0, -0.866025, 0.5, -1, 0, 0),
 		Limb = "Torso", Group = "Gun",
@@ -461,7 +461,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 15254947445
-		MeshId = "15172160708", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 0.6) * CFrame.Angles(0, 0, math.rad(-135)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, -1, 0),
 		C1 = CFrame.new(1.7586, 1.47563, -0.658649, -0.642788, -0.754406, 0.133022, 0.766044, -0.633022, 0.111619, 0, 0.173648, 0.984808),
 		Limb = "Torso", Group = "Gun",
@@ -470,7 +470,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 130264270502525
-		MeshId = "105473254683766", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 0.6) * CFrame.Angles(0, 0, math.rad(-135)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, -1, 0),
 		C1 = CFrame.new(0.849705, -0.429243, 7.62939e-06, 0, -0.766044, -0.642788, 0, -0.642788, 0.766044, -1, 0, 0),
 		Limb = "Torso", Group = "Gun",
@@ -479,7 +479,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 17550887328
-		MeshId = "17550839817", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 1) * CFrame.Angles(0, 0, math.rad(45)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, -1, -1),
 		C1 = CFrame.new(-1.02899, 0.127609, 0, 0, 0.5, 0.866025, 0, -0.866025, 0.5, 1, 0, 0),
 		Limb = "Torso", Group = "Gun",
@@ -488,7 +488,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 15489773780
-		MeshId = "15489673737", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 0.6) * CFrame.Angles(0, 0, math.rad(50)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, -1, -0.8),
 		C1 = CFrame.new(-0.75, -0.5, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0),
 		Limb = "Torso", Group = "Gun",
@@ -497,7 +497,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 78440434447503
-		MeshId = "123846958006279", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 0.4) * CFrame.Angles(0, 0, math.rad(40)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, -1, -0.8),
 		C1 = CFrame.new(-0.404778, -0.695232, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0),
 		Limb = "Torso", Group = "Gun",
@@ -506,7 +506,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 7208661666
-		MeshId = "7203730183", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(-0.560375, -0.0214996, 1, 0, -0.766044, 0.642788, 0, 0.642788, 0.766044, -1, 0, 0),
 		C1 = CFrame.new(-0.560375, -0.0214996, 0, 0, -0.766044, 0.642788, 0, 0.642788, 0.766044, -1, 0, 0),
 		Limb = "Torso", Group = "Gun",
@@ -515,7 +515,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 86195639625389
-		MeshId = "89681297163766", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 0.5) * CFrame.Angles(0, 0, math.rad(50)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, 1, 0),
 		C1 = CFrame.new(-0.75, 0, 0.375, 0, -1, 0, -1, 0, 0, 0, 0, -1),
 		Limb = "Torso", Group = "Gun",
@@ -524,7 +524,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 93181603564467
-		MeshId = "77214452514875", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 0.5) * CFrame.Angles(0, 0, math.rad(50)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, -1, 0),
 		C1 = CFrame.new(-1, -1, 0, 0, -1, 0, 0, 0, 1, -1, 0, 0),
 		Limb = "Torso", Group = "Gun",
@@ -533,7 +533,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 14890554305
-		MeshId = "14890477660", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(1.06066, 0.530329, 0.5, 0, 0.707107, -0.707107, 0, 0.707107, 0.707107, 1, 0, 0),
 		C1 = CFrame.new(1.06066, 0.530329, 0, 0, 0.707107, -0.707107, 0, 0.707107, 0.707107, 1, 0, 0),
 		Limb = "Torso", Group = "Gun",
@@ -542,7 +542,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 132539284750061
-		MeshId = "89921454026819", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 0.5) * CFrame.Angles(0, 0, math.rad(50)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, 1, 0),
 		C1 = CFrame.new(0.375, 0, 0.75, 0, 0, -1, -1, 0, 0, 0, 1, 0),
 		Limb = "Torso", Group = "Gun",
@@ -553,7 +553,7 @@ local HatKnownAccessoriesDatabase = {
 
 	-- Pistols
 	{ -- 15034807966
-		MeshId = "10703925099", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 1, 0, 1, 0, 0, 0, -1, 0, 0, 0, -1),
 		C1 = CFrame.new(0, 0.5, 0, 1, 0, 0, 0, -1, 0, 0, 0, -1),
 		Limb = "Torso", Group = "Gun",
@@ -562,7 +562,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 6470135113
-		MeshId = "6449532798", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(0, 0, 0.6) * CFrame.Angles(0, 0, math.rad(40)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, -1, 0),
 		C1 = CFrame.new(0, -1.375, -7.62939e-06, 0, 0, -1, 0, 1, 0, 1, 0, 0),
 		Limb = "Torso", Group = "Gun",
@@ -571,7 +571,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 11882172399
-		MeshId = "3729241578", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(-1.1, -0.5, 0, 1, 0, 0, 0, -1, 0, 0, 0, -1),
 		C1 = CFrame.new(0, 0.875, 0.125, 1, 0, 0, 0, -1, 0, 0, 0, -1),
 		Limb = "Torso", Group = "Gun",
@@ -580,7 +580,7 @@ local HatKnownAccessoriesDatabase = {
 		}
 	},
 	{ -- 18895018400
-		MeshId = "18894853727", TextureId = "",
+		MeshId = "95071826318758", TextureId = "74764166502246",
 		C0 = CFrame.new(1.1, -0.5, 0, 1, 0, 0, 0, -1, 0, 0, 0, -1),
 		C1 = CFrame.new(0, 0.525084, -0.375, -1, 0, 0, 0, -1, 0, 0, 0, 1),
 		Limb = "Torso", Group = "Gun",
