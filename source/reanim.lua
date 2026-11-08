@@ -483,7 +483,7 @@ do
 			Size = UDim2.new(1, 0, 0, 32)
 		}):Play()
 		task.wait(0.5)
-		local s, assetsof = pcall(game.HttpGet, game, "https://api.github.com/repos/STEVE-916-create/Uhhhhhh/contents/uiassets/")
+		local s, assetsof = pcall(game.HttpGet, game, "https://api.github.com/repos/Jaxennnnnnn/Uhhhhhh/contents/uiassets/")
 		if s and assetsof then
 			s, assetsof = pcall(HttpService.JSONDecode, HttpService, assetsof)
 			if s and assetsof then
@@ -7840,11 +7840,6 @@ local function _UpdateDownloadStatus()
 		end
 	end
 end
-local function EnsureUrlEncode(source)
-	return source:gsub("[^%w%-%._~/]", function(c)
-		return string.format("%%%02X", string.byte(c))
-	end)
-end
 local function AssetDownloadAgent(source, filename, path)
 	if isfile(path) then return true end
 	if _Assetdownloading[filename] then return false end
@@ -7876,14 +7871,14 @@ local function AssetDownloadAgent(source, filename, path)
 	return false
 end
 local function AssetDownload(filename)
-	local source = "https://raw.githubusercontent.com/STEVE-916-create/Uhhhhhh/main/content/" .. EnsureUrlEncode(filename)
+	local source = "https://raw.githubusercontent.com/Jaxennnnnnn/Uhhhhhh/main/content/" .. filename
 	local split = string.split(filename, "@")
 	if #split > 1 then
 		filename = table.remove(split, 1)
 		source = table.concat(split, "@")
 	end
 	if source:sub(1, 7) == "MARKET/" then
-		source = "https://raw.githubusercontent.com/STEVE-916-create/Uhhhhhh-Store/main/" .. EnsureUrlEncode(source:sub(8))
+		source = "https://raw.githubusercontent.com/Jaxennnnnnn/Uhhhhhh/main/community/" .. source:sub(8)
 	end
 	local path = AssetGetPathFromFilename(filename)
 	return AssetDownloadAgent(source, filename, path)
@@ -8918,7 +8913,7 @@ UI.CreateText(CreditsPage, "This \"software\" is FREE, meaning YOU SHOULD NOT RE
 UI.CreateText(CreditsPage, "If you want to add content to Uhhhhhh, like Dances or Movesets, go to <font color=\"#4444FF\">this thing</font>.", 15, Enum.TextXAlignment.Center).InputBegan:Connect(function(input)
 	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 		Util.UINotify("Link copied!")
-		pcall(setclipboard, "https://github.com/STEVE-916-create/Uhhhhhh/")
+		pcall(setclipboard, "https://github.com/Jaxennnnnnn/Uhhhhhh/")
 	end
 end)
 UI.CreateSeparator(CreditsPage)
@@ -8976,7 +8971,7 @@ task.spawn(function()
 	UI.CreateText(ChangelogsPage, "Changelogs", 30, Enum.TextXAlignment.Center)
 	local content = UI.CreateText(ChangelogsPage, "Loading...", 12, Enum.TextXAlignment.Left)
 	xpcall(function()
-		local logs = game:HttpGet("https://raw.githubusercontent.com/STEVE-916-create/Uhhhhhh/main/CHANGELOGS")
+		local logs = game:HttpGet("https://raw.githubusercontent.com/Jaxennnnnnn/Uhhhhhh/main/CHANGELOGS")
 		content.Text = "Rendering error."
 		for _,v in string.split(logs, "\n") do
 			if v:sub(1, 2) == "# " then
@@ -9025,7 +9020,7 @@ local function _contentgetgithubraw(path)
 	InitLogsText.Text ..= "\n[LOG] [GitGET] GET api./" .. path
 	local s, resp = pcall(request, {
 		Method = "GET",
-		Url = "https://api.github.com/repos/STEVE-916-create/Uhhhhhh/contents/content/" .. path,
+		Url = "https://api.github.com/repos/Jaxennnnnnn/Uhhhhhh/contents/content/" .. path,
 		Headers = {
 			Accept = "application/vnd.github.VERSION.raw"
 		}
@@ -9043,7 +9038,7 @@ local function _contentgetgithubraw(path)
 	InitLogsText.Text ..= "\n[LOG] [GitGET] GET raw./" .. path
 	s, resp = pcall(request, {
 		Method = "GET",
-		Url = "https://raw.githubusercontent.com/STEVE-916-create/Uhhhhhh/main/content/" .. path,
+		Url = "https://raw.githubusercontent.com/Jaxennnnnnn/Uhhhhhh/main/content/" .. path,
 	})
 	if s and resp and resp.StatusCode == 200 then
 		return resp.Body
@@ -9073,7 +9068,7 @@ local function ForceModuleReload(force)
 		xpcall(function()
 			local s, resp = pcall(request, {
 				Method = "GET",
-				Url = "https://api.github.com/repos/STEVE-916-create/Uhhhhhh/contents/content/",
+				Url = "https://api.github.com/repos/Jaxennnnnnn/Uhhhhhh/contents/content/",
 			})
 			if s and resp and resp.StatusCode == 200 then
 				s, resp = pcall(HttpService.JSONDecode, HttpService, resp.Body)
@@ -9284,7 +9279,7 @@ UI.CreateText(MarketPage, "btw if u download or delete modules, reload your modu
 --[[local function _getgithubraw(path)
 	local s, resp = pcall(request, {
 		Method = "GET",
-		Url = "https://api.github.com/repos/STEVE-916-create/Uhhhhhh/contents/" .. path,
+		Url = "https://api.github.com/repos/Jaxennnnnnn/Uhhhhhh/contents/" .. path,
 		Headers = {
 			Accept = "application/vnd.github.VERSION.raw"
 		}
@@ -9294,7 +9289,7 @@ UI.CreateText(MarketPage, "btw if u download or delete modules, reload your modu
 	end
 	s, resp = pcall(request, {
 		Method = "GET",
-		Url = "https://raw.githubusercontent.com/STEVE-916-create/Uhhhhhh/main/" .. path,
+		Url = "https://raw.githubusercontent.com/Jaxennnnnnn/Uhhhhhh/main/" .. path,
 	})
 	if s and resp and resp.StatusCode == 200 then
 		return resp.Body
@@ -9305,7 +9300,7 @@ local GetMarketList_cache = {}
 local function GetMarketList()
 	local aitemus, file2name, file2aitemu = GetMarketList_cache.aitemus, GetMarketList_cache.file2name, GetMarketList_cache.file2aitemu
 	if not aitemus or not file2name or not file2aitemu then
-		local marketteresult = game:HttpGet("https://raw.githubusercontent.com/STEVE-916-create/Uhhhhhh-Store/main/list.txt")
+		local marketteresult = game:HttpGet("https://raw.githubusercontent.com/Jaxennnnnnn/Uhhhhhh/main/community/list.txt")
 		marketteresult = string.split(marketteresult, "\n")
 		aitemus = {}
 		local aitemu = {}
@@ -9330,7 +9325,7 @@ local function GetMarketList()
 					continue
 				end
 				if k == "file" then
-					aitemu.Source = "https://raw.githubusercontent.com/STEVE-916-create/Uhhhhhh-Store/main/" .. v
+					aitemu.Source = "https://raw.githubusercontent.com/Jaxennnnnnn/Uhhhhhh/main/community/" .. v
 					aitemu.File = string.gsub(v, "/", ".")
 					continue
 				end
